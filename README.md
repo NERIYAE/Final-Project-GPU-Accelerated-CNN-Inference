@@ -11,11 +11,10 @@ Includes a **split** design (dot-products + reduction) and a **fused** kernel th
 - Optional profiling with **Nsight Compute**.
 
 ## Project layout
-- `src/cuconv_lib_base.cu` — CUDA kernels.
+- `src/cuconv_lib.cu` — CUDA kernels.
 - `src/main.cpp` — CLI, data setup, GPU run, validation hooks.
-- `src/cpu_conv_cuda_like_runner.cpp` — CPU reference.
+- `cpu_conv_cuda_like_runner.cpp` — CPU reference.
 - `CMakeLists.txt` — build configuration.
-- `docs/` (optional) — figures, project book.
 
 ## Quick start
 ```bash
