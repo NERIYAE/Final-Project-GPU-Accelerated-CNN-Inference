@@ -2,7 +2,7 @@
 # GPU-Accelerated CNN Inference (cuConv)
 
 CUDA C++ implementation of the 2D convolution **forward pass** for CNN inference.  
-Includes a **split** design (dot-products + reduction) and a **fused** kernel that accumulates and writes outputs in one pass. Focus: memory coalescing, shared memory for filters, read-only cache.
+Includes a **split** design (dot products + reduction) and a **fused** kernel that accumulates and writes outputs in one pass. Focus: memory coalescing, shared memory for filters, read-only cache.
 
 ## Overview
 - Data layout: **NCHW**, N=1, stride=1, symmetric padding.
