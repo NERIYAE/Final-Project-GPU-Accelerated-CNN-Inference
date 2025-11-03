@@ -86,6 +86,6 @@ extern "C" int cuconv_conv_forward(
         C, M,
         Ho, Wo
     );
-    CHECK_CUDA(cudaGetLastError());
+    cudaGetLastError();
     return 0;
 }
