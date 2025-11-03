@@ -1,6 +1,6 @@
 # Final-Project-GPU-Accelerated-CNN-Inference
 
-CUDA C++ implementation of the 2D convolution **forward pass** for CNN inference.  
+CUDA and C++ implementation of convolution for CNN inference.  
 Includes a **split** design (dot products + reduction) and a **fused** kernel that accumulates and writes outputs in one pass. 
 
 ## Overview
