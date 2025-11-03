@@ -3,5 +3,5 @@ cuconv_project/
 │  └─ cuconv_api.h
 ├─ src/
 │  ├─ cuconv_lib.cu          
-│  └─ main.cpp               
-└─ build/                   
+└─  └─ main.cpp               
+                  
