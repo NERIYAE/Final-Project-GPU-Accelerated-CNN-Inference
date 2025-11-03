@@ -1,7 +1,7 @@
 # Final-Project-GPU-Accelerated-CNN-Inference
 
 CUDA and C++ implementation of convolution for CNN inference.  
-Includes a **split** design (dot products + reduction) and a **fused** kernel that accumulates and writes outputs in one pass. 
+Includes a **split** design (dot products + sum) and a **fused** kernel that accumulates and writes outputs in one pass. 
 
 ## Overview
 - Data layout: **NCHW**, N=1, stride=1, symmetric padding.
