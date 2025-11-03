@@ -1,5 +1,4 @@
 cuconv_project/
-├─ CMakeLists.txt
 ├─ include/
 │  └─ cuconv_api.h
 ├─ src/
