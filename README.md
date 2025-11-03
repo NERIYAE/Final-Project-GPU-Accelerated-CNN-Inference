@@ -14,9 +14,3 @@ Focus: memory coalescing, shared memory for filters, read only cache.
 - `src/cuconv_lib.cu` — CUDA kernels.
 - `src/main.cpp` — CLI, data setup, GPU run, validation hooks.
 - `CPU_RUN.cpp` — CPU version.
-- `CMakeLists.txt` — build configuration.
-
-## Quick start
-```bash
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build -j
