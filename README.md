@@ -2,7 +2,6 @@
 
 CUDA C++ implementation of the 2D convolution **forward pass** for CNN inference.  
 Includes a **split** design (dot products + reduction) and a **fused** kernel that accumulates and writes outputs in one pass. 
-Focus: memory coalescing, shared memory for filters, read only cache.
 
 ## Overview
 - Data layout: **NCHW**, N=1, stride=1, symmetric padding.
@@ -12,5 +11,5 @@ Focus: memory coalescing, shared memory for filters, read only cache.
 
 ## Project layout
 - `src/cuconv_lib.cu` — CUDA kernels.
-- `src/main.cpp` — CLI, data setup, GPU run, validation hooks.
+- `src/main.cpp` — data setup, GPU run.
 - `CPU_RUN.cpp` — CPU version.
