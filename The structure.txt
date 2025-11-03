@@ -3,6 +3,6 @@ cuconv_project/
 ├─ include/
 │  └─ cuconv_api.h
 ├─ src/
-│  ├─ cuconv_lib.cu          # הקרנלים שלך + עטיפת API
-│  └─ main.cpp               # דוגמת הרצה/בדיקה
-└─ build/                    # יווצר ע"י CMake
+│  ├─ cuconv_lib.cu          
+│  └─ main.cpp               
+└─ build/                   
